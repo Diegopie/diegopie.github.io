@@ -8,94 +8,97 @@
     <title>My Portfolio</title>
 </head>
 <body style="background-color: #a09ef0;">
-    <!-- Create nav bar with relative links to other pages -->
+
+    <!-- Responsive BS Navbar -->
     <div style="background-color: #716fbd;">
         <nav class="navbar navbar-expand-sm navbar-dark container col-md-7">
-                <a class="navbar-brand">
-                    <img src="assets/images/nav-pic-01.jpg" width="32" height="32" class="d-inline-block align-top" alt="">
-                    Diego Hernandez
-                </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
+            <a class="navbar-brand">
+                <img src="assets/images/nav-pic-01.jpg" width="32" height="32" class="d-inline-block align-top" alt="">
+                Diego Hernandez
+            </a>
+            <!-- collapsable navbar logic -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapsable navbar content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+    </div>
 
         
-        <main class="container">
-            <div class="row">
-                <div class="container" style="display: flex; justify-content: center;">
-                    <h1 style="margin: 20px 0px;">I Am What I Am</h1>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/images/main-image-01.jpg" class="card-img-top" alt="...">
-                    </div>
-                </div>
-                <p class="col-md-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem. Iste ab temporibus expedita, rerum dolorem optio magni doloribus assumenda animi nemo necessitatibus ea architecto repellat velit iusto nam quas cupiditate facilis facere, placeat illum. Repudiandae excepturi animi in quo expedita perferendis sequi quos esse 
-                </p>
-                <p class="col-md-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem. Iste ab temporibus expedita, rerum dolorem optio magni doloribus assumenda animi nemo necessitatibus ea architecto repellat velit iusto nam quas cupiditate facilis facere, placeat illum. Repudiandae excepturi animi in quo expedita perferendis sequi quos esse 
-                </p>
+    <main class="container">
+        <section class="row">
+            <div class="container" style="display: flex; justify-content: center;">
+                <h1 style="margin: 20px 0px;">I Am What I Am</h1>
             </div>
-            
-            <div class="row" style="margin-top: 20px"></div>
-
-            <div class="row">
-                <p class="col-sm-12 col-md-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem.
-                </p>
-                <p class="col-sm-12 col-md-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem.
-                </p>
-                <p class="col-sm-12 col-md-4">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem.
-                </p>
-            </div>
-
-            <div class="row" style="margin-top: 20px"></div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://picsum.photos/560/560" class="card-img-top" alt="...">
-                            <div class="card-body" style="background-color: #BBBD6F;">
-                                <p class="card-text">Some fun, employer/client friendly pic and caption about me.</p>
-                            </div>
-                    </div>
+            <!-- main-image, styled as an aside on md screens -->
+            <aside class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/main-image-01.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://picsum.photos/560/560" class="card-img-top" alt="...">
-                            <div class="card-body" style="background-color: #BBBD6F;">
-                                <p class="card-text">Some fun, employer/client friendly pic and caption about me.</p>
-                            </div>
-                    </div>
+            </aside>
+            <!-- Personal into paragraphs -->
+            <p class="col-md-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem. Iste ab temporibus expedita, rerum dolorem optio magni doloribus assumenda animi nemo necessitatibus ea architecto repellat velit iusto nam quas cupiditate facilis facere, placeat illum. Repudiandae excepturi animi in quo expedita perferendis sequi quos esse 
+            </p>
+            <p class="col-md-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem. Iste ab temporibus expedita, rerum dolorem optio magni doloribus assumenda animi nemo necessitatibus ea architecto repellat velit iusto nam quas cupiditate facilis facere, placeat illum. Repudiandae excepturi animi in quo expedita perferendis sequi quos esse 
+            </p>
+        </section>
+        
+        <!-- creating spacing between rows without effecting side margins -->
+        <div class="row" style="margin-top: 20px"></div>
+
+        <!-- Final paragraphs for personal info -->
+        <section class="row">
+            <p class="col-sm-12 col-md-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem.
+            </p>
+            <p class="col-sm-12 col-md-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem.
+            </p>
+            <p class="col-sm-12 col-md-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quo sunt molestiae ipsa, cumque nulla modi quas voluptate alias facere accusantium impedit animi cupiditate numquam beatae aliquid ullam, minus autem obcaecati ipsam quos nihil? Excepturi, temporibus exercitationem.
+            </p>
+        </section>
+
+        <!-- creating spacing between rows without effecting side margins -->
+        <div class="row" style="margin-top: 20px"></div>
+
+        <!-- BS cards to add more personality to the page -->
+        <section class="row">
+            <article class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/560/560" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #BBBD6F;">
+                            <p class="card-text">Some fun, employer/client friendly pic and caption about me.</p>
+                        </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://picsum.photos/560/560" class="card-img-top" alt="...">
-                            <div class="card-body" style="background-color: #BBBD6F;">
-                                <p class="card-text">Some fun, employer/client friendly pic and caption about me.</p>
-                            </div>
-                    </div>
+            </article>
+            <article class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/560/560" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #BBBD6F;">
+                            <p class="card-text">Some fun, employer/client friendly pic and caption about me.</p>
+                        </div>
                 </div>
-            </div>
-        </main>
+            </article>
+            <article class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/560/560" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #BBBD6F;">
+                            <p class="card-text">Some fun, employer/client friendly pic and caption about me.</p>
+                        </div>
+                </div>
+            </article>
+        </section>
+    </main>
 
 
     <!-- Bootstrap JavaScript Links -->
