@@ -21,3 +21,8 @@ main h1, .card {
     width: 18rem;
     background-color: #BBBD6F;
 }
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
