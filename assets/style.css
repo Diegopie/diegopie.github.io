@@ -14,6 +14,10 @@ header {
     background-color: #716fbd;
 }
 
+p {
+    text-indent: 25px;
+}
+
 /* Create more comforatble spacing between elements */
 main h1, .card {
     margin: 20px 0px;
@@ -23,6 +27,10 @@ main h1, .card {
 .card {
     width: 18rem;
     background-color: #BBBD6F;
+}
+
+main section section .card {
+    width: 14rem;
 }
 
 /* Center headings inside of cards */
