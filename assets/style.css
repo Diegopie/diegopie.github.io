@@ -1,3 +1,4 @@
+/* global styling for site asthetic */
 * {
     Border: none;
     box-sizing: border-box;
@@ -13,16 +14,26 @@ header {
     background-color: #716fbd;
 }
 
+/* Create more comforatble spacing between elements */
 main h1, .card {
     margin: 20px 0px;
 }
 
+/* custom colors and width for cards */
 .card {
     width: 18rem;
     background-color: #BBBD6F;
 }
 
+/* Center headings inside of cards */
 h4 {
     display: flex;
     justify-content: center;
+}
+
+/* custom colors for bottons */
+.button {
+    border: solid 1px white;
+    background-color: #BBBD6F;
+    color: white;
 }
