@@ -1,0 +1,35 @@
+Index.html
+
+As a human who has only existed in the age of the computer, I spend a lot of my time on the internet. As a youngling I was always curious about how things worked and tried to find different ways to express myself. This led me to dabble in video editing, photography, illustration, and writing. I wanted to find a way to express all my creative outlets in a single space, so it was only natural that I would attempt to get a degree in Web Design through the Art Institute. 
+But nothing is ever so simple and I was forced to drop out one week in. While this did allow me to gain valuable skills in the workforce, that curiosity never left and the yearning to create lingered. A coworker showed me a bootcamp hosted by the University of Utah Professional Education department. I figured Destiny 2 could take a break and leapt into bootcamp crucible. 
+This webpage will continue to evolve as my skills do. My hope is for this to be a personal barometer of encouragement to show how far I have come as this bootcamp tries its’ best to beat me down. 
+
+On a random Thursday of March 2020, a friend and I decided to take an impromptu trip to St George, Ut for the sole purpose of building a PC for one of our colleagues there. The mission was successful and we through in some rock climbing for fun.
+
+I have spent many, many, many, hours playing Destiny. Our clan is named MTY Morphin Power Rangers and I take the role of the Yellow Ranger. I do not have a main per se, but I always do new content on my warlock first. 
+
+Alt text
+A very handsome man smiles during Christmas with his parents. He dons a black dress shirt complimented by a black tie
+Web developer Diego Hernandez poses while he is rock climbing
+
+
+Readme
+
+I created this website primarily to better understand using Bootstrap. It was a humbling experience and required a lot of reading Bootstrap documentation and experimenting. I plan to continue building on this site to track my educational progress. 
+
+- Create a fully functional, sharable application. 
+- Utilize Bootstrap systems to create a responsive application
+- Use a navbar that links to all pages and creates consistency on each page
+- Maintain accessibility standards, including using proper semantic HTML
+- Express my personality and link to external online profiles
+
+This project taught me the value of pseudo coding as the bedrock of creating an application. I did not start with strong pseudo code and I struggled a lot with making the page appear the way I wanted it too. Another shortcoming I had was making git commits. I tried tackling too much at once and loosing track of my goals and what I was doing with my code. I hope to further polish what is here, if not refactor a lot of it. 
+
+I am still learning! I do not know how to mange the backend, server aspect of this site so the contact me form does not work! If you would like to reach me, please use the link to my Linked In or GitHub accounts.
+
+Collaborators 
+
+It should not go without saying that none of this is possible without the Bootstrap team. 
+
+I would also like to thank Jason Sutliff for reviewing my code and helping me clear some roadblocks to get it where it is now.
+
