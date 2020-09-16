@@ -37,6 +37,8 @@ main section section .card {
 h4 {
     display: flex;
     justify-content: center;
+    color: white;
+    text-decoration: none;
 }
 
 /* custom colors for bottons */
@@ -44,4 +46,8 @@ h4 {
     border: solid 1px white;
     background-color: #BBBD6F;
     color: white;
+}
+
+.proj {
+    height: 320px;
 }
