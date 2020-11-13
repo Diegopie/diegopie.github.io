@@ -35,19 +35,54 @@ main section section .card {
 
 /* Center headings inside of cards */
 h4 {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
+    padding-bottom: 8px;
 }
 
-/* custom colors for bottons */
+/* custom colors for buttons */
 .button {
     border: solid 1px white;
     background-color: #BBBD6F;
     color: white;
 }
 
-.proj {
+.modal-cont {
+    margin-top: 16px;
+    background-color: #716fbd;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+/* Index Specific */
+.me-cont {
+    height: 530px;
+}
+
+/* Portfolio Specific */
+.proj-img {
     height: 320px;
+}
+
+.proj-cont {
+    height: 610px;
+}
+
+.git {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    margin: 3px 1px; 
 }

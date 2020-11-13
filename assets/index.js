@@ -1,4 +1,4 @@
-$(".proj").click((event) => {
+$(".proj-img").click((event) => {
   const target = event.target
   const state = target.getAttribute("data-state");
   if (state === "still") {
@@ -9,3 +9,8 @@ $(".proj").click((event) => {
     target.setAttribute("src", target.getAttribute("data-still"));
   }
 });
+
+$(".button").click((event) => {
+  console.log("hit");
+  $("#alertModal").modal();
+})
