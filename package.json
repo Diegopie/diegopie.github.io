@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "2.0.0",
+  "description": "I created this website primarily to better understand using Bootstrap. It was a humbling experience and required a lot of reading Bootstrap documentation and experimenting. I plan to continue building on this site to track my educational progress.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegopie/diegopie.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diegopie/diegopie.github.io/issues"
+  },
+  "homepage": "https://github.com/Diegopie/diegopie.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  }
+}
