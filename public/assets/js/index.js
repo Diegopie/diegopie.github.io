@@ -1,13 +1,25 @@
+let previousClick;
+
+
 $(".proj-img").click((event) => {
-  const target = event.target
-  const state = target.getAttribute("data-state");
-  if (state === "still") {
-    target.setAttribute("data-state", "animate")
-    target.setAttribute("src", target.getAttribute("data-animate"));
-  } else if (state === "animate") {
-    target.setAttribute("data-state", "still")
-    target.setAttribute("src", target.getAttribute("data-still"));
+  // ** Check For and Disable Currently Animated Gif
+  const gifContain = $('.proj-img');
+  for (let i = 0; i < gifContain.length; i++) {
+    // *** Set src Value to data-still Value
+    gifContain[i].setAttribute('data-state', 'still')
+    gifContain[i].setAttribute('src', gifContain[i].getAttribute('data-still'));
   }
+  // ** Check if User Clicked the Same Container To Prevent Animation
+  const target = event.target;
+  if (previousClick === target) {
+    previousClick = undefined;
+    return;
+  }
+  // ** Set Values Equal To Each Other For The Above Conditional to Trigger If the Next event.target Is the Same
+  previousClick = target;
+  // ** Switch src Value to data-animate Value
+  target.setAttribute('data-state', 'animate')
+  target.setAttribute('src', target.getAttribute('data-animate'));  
 });
 
 $(".button").click((event) => {
@@ -32,4 +44,6 @@ function checkActive() {
   }
 };
 checkActive()
-// $(".navbar-nav")[0].children
+
+
+console.log($('.proj-img'));
