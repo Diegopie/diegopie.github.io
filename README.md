@@ -10,7 +10,7 @@ I created this website primarily to better understand using Bootstrap. It was a 
 - Maintain accessibility standards, including using proper semantic HTML
 - Express my personality and link to external online profiles
 
-![My Online Portfolio](./assets/images/readme-01.png)
+![My Online Portfolio](./public/assets/img/readme-01.png)
 
 [My Online Portfolio](https://diegopie.github.io/) is hosted on GitHub pages.
 
