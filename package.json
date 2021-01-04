@@ -1,24 +1,25 @@
 {
-  "name": "portfolio",
-  "version": "2.0.0",
-  "description": "I created this website primarily to better understand using Bootstrap. It was a humbling experience and required a lot of reading Bootstrap documentation and experimenting. I plan to continue building on this site to track my educational progress.",
-  "main": "server.js",
+  "name": "template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server/server.js",
+    "watch:server": "nodemon server/server.js",
+    "start:client": "cd client && npm start",
+    "dev": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "install": "cd client && npm i",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+    "lint": "eslint client/src/**/*.jsx  client/src/**/*.js server/**/*.js",
+    "lint:fix": "eslint client/src/**/*.jsx --fix client/src/**/*.js --fix server/**/*.js --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Diegopie/diegopie.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Diegopie/diegopie.github.io/issues"
-  },
-  "homepage": "https://github.com/Diegopie/diegopie.github.io#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0"
+    "mongoose": "^5.11.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "nodemon": "^2.0.6"
   }
 }
