@@ -1,6 +1,6 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
-const routes = require('./routes/routes')
+const routes = require('./routes/routes');
 
 const PORT = process.env.PORT || 3000;
 
