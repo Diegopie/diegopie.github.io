@@ -22,6 +22,7 @@ h4 {
 } */
 
 .App-card {
+  margin: 20px 0px;
   width: 18rem;
   background-color: #BBBD6F;
 }
