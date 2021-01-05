@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { useGlobalContext } from '../utils/GlobalContext';
+import React from 'react';
 
 const Contact = () => {
   

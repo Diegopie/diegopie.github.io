@@ -1,0 +1,28 @@
+.PortCards-Cont {
+  height: 610px;
+
+}
+
+.PortCards-Img {
+  height: 320px;
+}
+
+.PortCards-Text {
+  height: 222px;
+  margin-bottom: 0px;
+}
+
+.PortCards-Icon {
+  display: flex;
+  justify-content: center;
+}
+
+.PortCards-Git {
+  height: 30px;
+  width: 30px;
+  border: solid;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  margin: 3px 1px; 
+}
