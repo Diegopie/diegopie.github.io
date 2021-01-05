@@ -7,8 +7,9 @@ const Contact = () => {
 
     return (
         <main className="container">
-            <ContactForm/>
-            <section class="row justify-content-center">
+            {/* <ContactForm/> */}
+            <section className="row justify-content-center">
+                <h1 className="col-12 text-center App-Spacer">Contact Me</h1>
                 <ContactCard
                     link="https://github.com/Diegopie"
                     src="/assets/img/git-hub.png"
