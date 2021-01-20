@@ -7,8 +7,10 @@
 
 body {
     background-color: #a09ef0;
-    color: white
+    color: white;
+    overflow-x: hidden;
 }
+
 
 header {
     background-color: #716fbd;
