@@ -63,12 +63,57 @@ h4 {
 
 
 /* Index Specific */
+
+.bio {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.main-img {
+    border-radius: 20px;
+    background-color: #a09ef0;
+    height: 320px;
+    width: 320px;
+    transition: 550ms;
+}
+
 .me-cont {
     height: 530px;
 }
 
-.index-text {
+.bio-text {
     text-indent: 25px;
+    transition: 550ms;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-me {
+    justify-content: center;
+}
+
+@media only screen and (max-width: 991px) {
+	.main-img {
+        margin-right: 94px;
+        transition: 550ms;
+    }
+
+    .about-me {
+        justify-content:space-evenly;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+	.bio-text {
+        padding-top: 30px;
+        transition: 550ms;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+	.bio-text {
+        padding-top: 50px;
+        transition: 550ms;
+    }
 }
 
 /* Portfolio Specific */
@@ -78,6 +123,10 @@ h4 {
 
 .proj-cont {
     height: 610px;
+}
+
+.proj-intro-text {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .proj-text {
@@ -99,7 +148,3 @@ h4 {
     text-align: center;
     margin: 3px 1px; 
 }
-
-/* For Index Page */
-
-
