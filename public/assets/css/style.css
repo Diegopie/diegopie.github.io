@@ -119,10 +119,12 @@ h4 {
 /* Portfolio Specific */
 .proj-img {
     height: 320px;
+    border-radius: 18px 18px 2px 2px;
 }
 
 .proj-cont {
     height: 610px;
+    border-radius: 18px;
 }
 
 .proj-intro-text {
