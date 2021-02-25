@@ -46,4 +46,4 @@ function checkActive() {
 checkActive()
 
 
-console.log($('.proj-img'));
+// console.log($('.proj-img'));

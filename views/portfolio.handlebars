@@ -1,8 +1,13 @@
 <main class="container">
         <!-- Lead Text -->
-    <section class="row justify-content-center">
+    <section class="row justify-content-center proj-intro-text">
         <h1 class="col-12 text-center">My Projects</h1>
-        <p class="col center">As a student, I am excited to learn and grow as a web developer. Here I will share the projects that I create in and out of school.</p>
+        <p class="col-12 center">
+            Here are a small selection of projects I have worked on. I am familiar with node.js/express servers, handlebars.js, react.js, j-query, mySQL & Mongo databases, and building PWA applications.
+        </p>
+        <p class="col-12 center">
+            Click the images to animate!
+        </p>
     </section>
     <!-- Cards to display projects -->
     <section class="row justify-content-center">
@@ -68,7 +73,7 @@
                             <a href="https://diegopie.github.io/QR-aid-Codes" target="_blank">
                                 <h4>QR-aid Codes</h4>
                             </a>
-                            <p class="card-text">I had three amazing collaborators to create this application. The site allows users to search for their favorite video game and create a shareable calendar event to schedule play sessions.</p>
+                            <p class="card-text">QR-Aid Codes allows users to search for their favorite video game and create a shareable calendar event to schedule play sessions.</p>
                         </div>
                         <div class="icon">
                             <a href="https://github.com/Diegopie/QR-aid-Codes" title="View on GitHub" target="_blank">
@@ -96,6 +101,55 @@
                         </div>
                         <div class="icon">
                             <a href="https://github.com/Diegopie/The-Smartest-Among-Us" title="View on GitHub" target="_blank">
+                                <img src="/assets/img/git-hub.png" class="card-img-top git" alt="Logo for GitHub website">
+                            </a>
+                        </div>
+                    </article>
+                
+            </div>
+        </article>
+        {{!-- Project 5 --}}
+         <article class="col-auto col-md">
+            <div class="card proj-cont">
+                <!-- Card Image -->
+                <img src="/assets/img/portfolio/budgetPWA-still.png" title="Click to animate" class="card-img-top proj-img" alt="Gif demonstrating a user creating a secure password"
+                data-animate="/assets/img/portfolio/budgetPWA-animate.gif"
+                data-still="/assets/img/portfolio/budgetPWA-still.png"
+                data-state="still">
+                    <!-- Card Text Content -->
+                    <article class="card-body">
+                        <div class="proj-text">
+                            <a href="https://budget-pwaa.herokuapp.com/" target="_blank">
+                            <h4>PWA Budget Tracker</h4>
+                            </a>
+                            <p class="card-text">This is a PWA with full offline functionality. Users can update their funds and see the graph update. When offline, data will be stored in IndexedDB then synced with the Mongo database once reconnected to the network.</p>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/Diegopie/PWA-Budget-App" title="View on GitHub" target="_blank">
+                                <img src="/assets/img/git-hub.png" class="card-img-top git" alt="Logo for GitHub website">
+                            </a>
+                        </div>
+                    </article>
+            </div>
+        </article>
+        {{!-- Project 6 --}}
+         <article class="col-auto col-md">
+            <div class="card proj-cont">
+                <!-- Card Image -->
+                <img src="/assets/img/portfolio/waterCooler-still.png" title="Click to animate" class="card-img-top proj-img" alt="Gif demonstrating a user creating a secure password"
+                data-animate="/assets/img/portfolio/waterCooler-animate.gif"
+                data-still="/assets/img/portfolio/waterCooler-still.png"
+                data-state="still">
+                    <!-- Card Text Content -->
+                    <article class="card-body">
+                        <div class="proj-text">
+                            <a href="https://water-cooler-main.herokuapp.com/" target="_blank">
+                            <h4>Water Cooler</h4>
+                            </a>
+                            <p class="card-text">Water Cooler is a video conferencing application that utilizes a sprite-based GUI for creating Social Spaces to chat in. User's can send internal site invites and each Social Space has a unique chat powered by sockets.</p>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/Diegopie/water-cooler" title="View on GitHub" target="_blank">
                                 <img src="/assets/img/git-hub.png" class="card-img-top git" alt="Logo for GitHub website">
                             </a>
                         </div>
